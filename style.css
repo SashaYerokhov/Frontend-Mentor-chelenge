@@ -11,13 +11,11 @@ a {
 }
 
 .box {
-    max-width: 1280px;
-    height: 780px;
+    max-width: 1440px;
+    min-height: 960px;
+    height: 100%;
     background-color: hsl(47, 88%, 63%);
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
     color: hsl(0, 0%, 7%);
 }
 
@@ -30,12 +28,15 @@ a {
 .block {
     max-width: 380px;
     width: 100%;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    transform: translate(-50%, -50%);
     min-height: 520px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
     border: 1px solid hsl(0, 0%, 7%);
     box-shadow: 10px 10px 0px hsl(0, 0%, 7%);
-
 }
 .container {
     margin: 0 auto;
