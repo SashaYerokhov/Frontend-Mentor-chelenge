@@ -29,8 +29,8 @@ a {
     max-width: 380px;
     width: 100%;
     position: absolute;
-    top: 55%;
-    left: 45%;
+    top: 53%;
+    left: 50%;
     transform: translate(-50%, -50%);
     min-height: 520px;
     background-color: hsl(0, 0%, 100%);
